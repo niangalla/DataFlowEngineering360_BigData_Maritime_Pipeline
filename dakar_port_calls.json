@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "port": "SNDKR",
+    "port_name": "Dakar",
+    "country": "Senegal",
+    "scraped_at": "2025-12-03T22:40:31.738712Z",
+    "source": "vesselfinder",
+    "total_vessels": 40,
+    "total_arrivals": 0,
+    "total_departures": 0
+  },
+  "data": {
+    "current_vessels": [
+      {
+        "vessel_name": "WECO ESTHER\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "WECO ESTHER\nBulk Carrier",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9951654",
+        "detected_at": "2025-12-03T22:40:31.735383Z"
+      },
+      {
+        "vessel_name": "CL FREEDOM\nGeneral Cargo Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "CL FREEDOM\nGeneral Cargo Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/1069285",
+        "detected_at": "2025-12-03T22:40:31.735591Z"
+      },
+      {
+        "vessel_name": "ULANGA\nContainer Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "ULANGA\nContainer Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9690080",
+        "detected_at": "2025-12-03T22:40:31.735717Z"
+      },
+      {
+        "vessel_name": "BC RAEDA\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "BC RAEDA\nBulk Carrier",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9487598",
+        "detected_at": "2025-12-03T22:40:31.735818Z"
+      },
+      {
+        "vessel_name": "DOCE DE JULIO\nFishing Vessel",
+        "vessel_mmsi": null,
+        "vessel_type": "DOCE DE JULIO\nFishing Vessel",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9978107",
+        "detected_at": "2025-12-03T22:40:31.735911Z"
+      },
+      {
+        "vessel_name": "SOFOS\nChemical/Oil Products Tanker",
+        "vessel_mmsi": null,
+        "vessel_type": "SOFOS\nChemical/Oil Products Tanker",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9278064",
+        "detected_at": "2025-12-03T22:40:31.735996Z"
+      },
+      {
+        "vessel_name": "CETUS OMURA\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "CETUS OMURA\nBulk Carrier",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9670781",
+        "detected_at": "2025-12-03T22:40:31.736071Z"
+      },
+      {
+        "vessel_name": "GRANDE GHANA\nRo-Ro Cargo Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "GRANDE GHANA\nRo-Ro Cargo Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9343168",
+        "detected_at": "2025-12-03T22:40:31.736137Z"
+      },
+      {
+        "vessel_name": "STARLIGHT\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "STARLIGHT\nBulk Carrier",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9519339",
+        "detected_at": "2025-12-03T22:40:31.736198Z"
+      },
+      {
+        "vessel_name": "LE BELLOT\nPassenger (Cruise) Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "LE BELLOT\nPassenger (Cruise) Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9852418",
+        "detected_at": "2025-12-03T22:40:31.736254Z"
+      },
+      {
+        "vessel_name": "CS ENDEAVOUR\nRefrigerated Cargo Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "CS ENDEAVOUR\nRefrigerated Cargo Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9517927",
+        "detected_at": "2025-12-03T22:40:31.736430Z"
+      },
+      {
+        "vessel_name": "MSC LENA F\nContainer Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "MSC LENA F\nContainer Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9347762",
+        "detected_at": "2025-12-03T22:40:31.736531Z"
+      },
+      {
+        "vessel_name": "POSH GALLANT\nTug",
+        "vessel_mmsi": null,
+        "vessel_type": "POSH GALLANT\nTug",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9728021",
+        "detected_at": "2025-12-03T22:40:31.736621Z"
+      },
+      {
+        "vessel_name": "KALYONCU 1\nOther type",
+        "vessel_mmsi": 629009176,
+        "vessel_type": "KALYONCU 1\nOther type",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/629009176",
+        "detected_at": "2025-12-03T22:40:31.736706Z"
+      },
+      {
+        "vessel_name": "WECO ESTHER\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "WECO ESTHER\nBulk Carrier",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9951654",
+        "detected_at": "2025-12-03T22:40:31.736787Z"
+      },
+      {
+        "vessel_name": "HAMSILOS\nOther type",
+        "vessel_mmsi": 271072578,
+        "vessel_type": "HAMSILOS\nOther type",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/271072578",
+        "detected_at": "2025-12-03T22:40:31.736861Z"
+      },
+      {
+        "vessel_name": "APOLLONIA\nOffshore Tug/Supply Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "APOLLONIA\nOffshore Tug/Supply Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9796183",
+        "detected_at": "2025-12-03T22:40:31.736929Z"
+      },
+      {
+        "vessel_name": "VB JOAL\nTug",
+        "vessel_mmsi": null,
+        "vessel_type": "VB JOAL\nTug",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9357341",
+        "detected_at": "2025-12-03T22:40:31.736989Z"
+      },
+      {
+        "vessel_name": "MY LAMA\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "MY LAMA\nBulk Carrier",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9339791",
+        "detected_at": "2025-12-03T22:40:31.737044Z"
+      },
+      {
+        "vessel_name": "NORSE\nResearch Vessel",
+        "vessel_mmsi": null,
+        "vessel_type": "NORSE\nResearch Vessel",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9099092",
+        "detected_at": "2025-12-03T22:40:31.737095Z"
+      },
+      {
+        "vessel_name": "HAMSILOS\nOther type",
+        "vessel_mmsi": 271072578,
+        "vessel_type": "HAMSILOS\nOther type",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/271072578",
+        "detected_at": "2025-12-03T22:40:31.737259Z"
+      },
+      {
+        "vessel_name": "VB JOAL\nTug",
+        "vessel_mmsi": null,
+        "vessel_type": "VB JOAL\nTug",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9357341",
+        "detected_at": "2025-12-03T22:40:31.737354Z"
+      },
+      {
+        "vessel_name": "ALBERT OLDENDORFF\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "ALBERT OLDENDORFF\nBulk Carrier",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9498896",
+        "detected_at": "2025-12-03T22:40:31.737438Z"
+      },
+      {
+        "vessel_name": "POSH GALLANT\nTug",
+        "vessel_mmsi": null,
+        "vessel_type": "POSH GALLANT\nTug",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9728021",
+        "detected_at": "2025-12-03T22:40:31.737532Z"
+      },
+      {
+        "vessel_name": "MSC LENA F\nContainer Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "MSC LENA F\nContainer Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9347762",
+        "detected_at": "2025-12-03T22:40:31.737606Z"
+      },
+      {
+        "vessel_name": "LIBERTAS H\nContainer Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "LIBERTAS H\nContainer Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9388388",
+        "detected_at": "2025-12-03T22:40:31.737675Z"
+      },
+      {
+        "vessel_name": "KALYONCU 1\nOther type",
+        "vessel_mmsi": 629009176,
+        "vessel_type": "KALYONCU 1\nOther type",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/629009176",
+        "detected_at": "2025-12-03T22:40:31.737744Z"
+      },
+      {
+        "vessel_name": "ALFONSO RIERA SEGUND\nFishing Vessel",
+        "vessel_mmsi": null,
+        "vessel_type": "ALFONSO RIERA SEGUND\nFishing Vessel",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9175377",
+        "detected_at": "2025-12-03T22:40:31.737809Z"
+      },
+      {
+        "vessel_name": "CAPE FULMAR\nContainer Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "CAPE FULMAR\nContainer Ship",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9359313",
+        "detected_at": "2025-12-03T22:40:31.737864Z"
+      },
+      {
+        "vessel_name": "VB JOAL\nTug",
+        "vessel_mmsi": null,
+        "vessel_type": "VB JOAL\nTug",
+        "flag": "",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9357341",
+        "detected_at": "2025-12-03T22:40:31.737914Z"
+      },
+      {
+        "vessel_name": "CL FREEDOM\nGeneral Cargo Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "CL FREEDOM\nGeneral Cargo Ship",
+        "flag": "2025",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/1069285",
+        "detected_at": "2025-12-03T22:40:31.738056Z"
+      },
+      {
+        "vessel_name": "GH MAESTRO\nContainer Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "GH MAESTRO\nContainer Ship",
+        "flag": "2012",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9449118",
+        "detected_at": "2025-12-03T22:40:31.738141Z"
+      },
+      {
+        "vessel_name": "JOHANNA OLDENDORFF\nSelf Discharging Bulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "JOHANNA OLDENDORFF\nSelf Discharging Bulk Carrier",
+        "flag": "1998",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9057446",
+        "detected_at": "2025-12-03T22:40:31.738222Z"
+      },
+      {
+        "vessel_name": "WECO ESTHER\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "WECO ESTHER\nBulk Carrier",
+        "flag": "2022",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9951654",
+        "detected_at": "2025-12-03T22:40:31.738296Z"
+      },
+      {
+        "vessel_name": "DUBAI EARTH\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "DUBAI EARTH\nBulk Carrier",
+        "flag": "2025",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/1043671",
+        "detected_at": "2025-12-03T22:40:31.738368Z"
+      },
+      {
+        "vessel_name": "CMA CGM AMBARLI\nContainer Ship",
+        "vessel_mmsi": null,
+        "vessel_type": "CMA CGM AMBARLI\nContainer Ship",
+        "flag": "2008",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9436422",
+        "detected_at": "2025-12-03T22:40:31.738435Z"
+      },
+      {
+        "vessel_name": "AMORE\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "AMORE\nBulk Carrier",
+        "flag": "2012",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9633252",
+        "detected_at": "2025-12-03T22:40:31.738503Z"
+      },
+      {
+        "vessel_name": "RT LEO\nSelf Discharging Bulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "RT LEO\nSelf Discharging Bulk Carrier",
+        "flag": "2011",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9581136",
+        "detected_at": "2025-12-03T22:40:31.738564Z"
+      },
+      {
+        "vessel_name": "LOURA\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "LOURA\nBulk Carrier",
+        "flag": "2009",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9497115",
+        "detected_at": "2025-12-03T22:40:31.738619Z"
+      },
+      {
+        "vessel_name": "BULK FRIENDSHIP\nBulk Carrier",
+        "vessel_mmsi": null,
+        "vessel_type": "BULK FRIENDSHIP\nBulk Carrier",
+        "flag": "2011",
+        "source_url": "https://www.vesselfinder.com/fr/vessels/details/9496977",
+        "detected_at": "2025-12-03T22:40:31.738667Z"
+      }
+    ],
+    "arrivals": [],
+    "departures": []
+  }
+}

@@ -1,0 +1,16 @@
+version: '3.8'
+
+# =========================================
+# Services stack ELK
+# =========================================
+
+include:
+    - docker-compose.airflow.yml
+    - docker-compose.core.yml
+    - docker-compose.datawarehouse.yml
+    - docker-compose.monitoring.yml
+    - docker-compose.stockage.yml
+
+networks:
+  my_network:
+    external: true

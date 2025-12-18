@@ -1,0 +1,18 @@
+apiVersion: 1
+
+datasources:
+  - name: PostgreSQL DW
+    type: postgres
+    access: proxy
+    uid: postgres_dw
+    url: postgres_dw:5432
+    database: data_warehouse
+    user: warehouse_user
+    secureJsonData:
+      password: warehouse_password
+    jsonData:
+      sslmode: disable
+      postgresVersion: 1300
+      timescaledb: false
+    isDefault: true
+    editable: true

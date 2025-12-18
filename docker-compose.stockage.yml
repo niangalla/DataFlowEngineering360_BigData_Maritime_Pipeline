@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_local
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: passer123        # Mot de passe root
+      MYSQL_DATABASE: port_db           # Base créée automatiquement
+      MYSQL_USER: dbuser                   # Utilisateur custom
+      MYSQL_PASSWORD: passer123               # Mot de passe utilisateur
+    ports:
+      - "3307:3306"                        # Port MySQL exposé
+    networks:
+      - my_network
+    volumes:
+      - mysql_data:/data/mysqldb        # Persistance des données
+      - ./init_port.sql:/docker-entrypoint-initdb.d/init_port.sql  # Script d'initialisation
+
+    # Base NoSQL - MongoDB
+  mongo:
+    image: mongo:6.0
+    container_name: mongo_local
+    restart: unless-stopped #always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: passer123
+      MONGO_INITDB_DATABASE: port_db
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./init_mongo_port.js:/docker-entrypoint-initdb.d/init_mongo_port.js
+    networks:
+      - my_network
+
+  # Interface MongoDB - Mongo Express
+  mongo-express:
+    image: mongo-express:1.0.0
+    container_name: mongo_express_ui
+    restart: always
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongo_local
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: passer123
+      ME_CONFIG_MONGODB_PORT: 27017
+      ME_CONFIG_BASICAUTH_USERNAME: admin
+      ME_CONFIG_BASICAUTH_PASSWORD: admin
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongo
+    networks:
+      - my_network
+
+volumes:
+  mysql_data:
+    driver: local
+  mongo_data:
+    driver: local
+
+networks:
+  my_network:
+    external: true  # Utilise le réseau existant

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+monenv/
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Data
+data/
+# Keep specific data files if needed, but generally ignore the data folder as per plan
+
+# IDE
+.vscode/
+.idea/
+
+# Reports and Generated Files
+*.pdf
+*.html
+*.png
+!architecture_*.png
+!dataflow360_*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
