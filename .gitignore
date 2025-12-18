@@ -29,6 +29,7 @@ src/data/
 08_monitoring/
 collecte/
 utils/
+airflow/
 
 # Excluded src modules
 src/collection/kafka/
@@ -43,6 +44,7 @@ src/data_warehouse/
 *.html
 *.png
 !architecture_dataflow360_final_paper_1764534128793.png
+!Architecture_Projet_Dataflow360_Updated.png
 bilan_*
 convert_to_pdf.py
 
