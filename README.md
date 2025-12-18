@@ -1,6 +1,7 @@
 # DataFlowEngineering360 - Pipeline Big Data Maritime
 
-![Architecture](architecture_dataflow360_final_paper_1764534128793.png)
+## Architecture attendue
+![Architecture](Architecture_Projet_Dataflow360_Updated.png)
 
 ## Présentation
 
@@ -43,11 +44,12 @@ Le projet intègre **Great Expectations** pour garantir la fiabilité et la qual
 - La validité des valeurs (nulls, types, plages).
 - La cohérence temporelle des données.
 
-## Architecture (Evolutive)
+## Architecture déjà mise en place ()
 
 ![Architecture DataFlow360](architecture_dataflow360_final_paper_1764534128793.png)
 
 L'architecture est conçue pour être **modulaire et évolutive**. Elle permet d'ajouter facilement de nouvelles sources de données ou de nouveaux modules de traitement sans impacter l'existant.
+La partie Ops et Sécurité est en cours de développement.
 
 Le pipeline est structuré autour de plusieurs composants :
 
