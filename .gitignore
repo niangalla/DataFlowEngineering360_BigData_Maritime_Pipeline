@@ -15,7 +15,24 @@ logs/
 
 # Data
 data/
+src/data/
+02_source_donnees/
 # Keep specific data files if needed, but generally ignore the data folder as per plan
+
+# Legacy / Unused modules (Refactored to src/)
+01_collecte/
+03_ingestion/
+04_stockage_structuration/
+05_orchestration_automatisation/
+06_integration_transformation/
+07_securite_optimisation/
+08_monitoring/
+collecte/
+utils/
+
+# Excluded src modules
+src/collection/kafka/
+src/data_warehouse/
 
 # IDE
 .vscode/
@@ -25,8 +42,13 @@ data/
 *.pdf
 *.html
 *.png
-!architecture_*.png
-!dataflow360_*.png
+!architecture_dataflow360_final_paper_1764534128793.png
+bilan_*
+convert_to_pdf.py
+
+# Debug and Tests
+debug_*
+test_*
 
 # OS
 .DS_Store

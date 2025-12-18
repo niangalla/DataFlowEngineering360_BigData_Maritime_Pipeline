@@ -47,7 +47,7 @@ services:
     image: docker.elastic.co/logstash/logstash:7.14.0
     container_name: logstash
     volumes:
-      - ./collecte/api/elk/logstash/pipeline:/usr/share/logstash/pipeline
+      - ./src/monitoring/elk_stack/logstash/pipeline:/usr/share/logstash/pipeline
     depends_on:
       elasticsearch:
         condition: service_healthy

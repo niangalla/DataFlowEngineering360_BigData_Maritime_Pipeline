@@ -34,22 +34,34 @@ Le pipeline end-to-end est fonctionnel. Les travaux restants concernent principa
 - **Monitoring** : Stack ELK (Elasticsearch, Logstash, Kibana) et Grafana pour la supervision de l'infrastructure et des flux.
 - **Valorisation** : Dashboards interactifs pour le suivi des KPIs portuaires.
 
-## Architecture Technique
+## Contrôle Qualité des Données
 
-Le projet est structuré de manière modulaire :
+🚧 **En cours d'implémentation**
+
+Le projet intègre **Great Expectations** pour garantir la fiabilité et la qualité des données à chaque étape du pipeline. Des validations sont effectuées pour vérifier :
+- La conformité des schémas.
+- La validité des valeurs (nulls, types, plages).
+- La cohérence temporelle des données.
+
+## Architecture
+
+![Architecture DataFlow360](architecture_dataflow360_final_paper_1764534128793.png)
+
+L'architecture est conçue pour être **modulaire et évolutive**. Elle permet d'ajouter facilement de nouvelles sources de données ou de nouveaux modules de traitement sans impacter l'existant.
+
+Le pipeline est structuré autour de plusieurs composants :
 
 ```
 DataFlow_Engineering360/
-├── 01_collecte/          # Scripts de collecte et génération de données
-├── 02_source_donnees/    # Données brutes et sources
-├── 03_ingestion/         # Pipelines d'ingestion (Kafka, Spark)
-├── 04_stockage_structuration/ # Scripts d'initialisation des BDD
-├── 05_orchestration_automatisation/ # DAGs Airflow
-├── 06_integration_transformation/ # Scripts de transformation (Spark, SQL)
-├── 07_securite_optimisation/ # Gestion de la sécurité et optimisations
-├── 08_monitoring/        # Configuration ELK et Grafana
-├── docker-compose*.yml   # Fichiers d'orchestration Docker (split par service)
-├── scripts/              # Scripts utilitaires (start-all.sh, stop-all.sh)
+├── src/                  # Code source du projet
+│   ├── collection/       # Scripts de collecte
+│   ├── ingestion/        # Pipelines Spark et Kafka
+│   ├── transformation/   # Transformations de données
+│   ├── orchestration/    # DAGs Airflow
+│   ├── monitoring/       # Configuration ELK
+│   └── utils/            # Fonctions utilitaires
+├── docker-compose*.yml   # Fichiers d'orchestration Docker
+├── scripts/              # Scripts de démarrage/arrêt
 └── ...
 ```
 
