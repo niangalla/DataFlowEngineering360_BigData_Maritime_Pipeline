@@ -44,7 +44,7 @@ Le projet intègre **Great Expectations** pour garantir la fiabilité et la qual
 - La validité des valeurs (nulls, types, plages).
 - La cohérence temporelle des données.
 
-## Architecture déjà mise en place ()
+## Architecture déjà mise en place
 
 ![Architecture DataFlow360](architecture_dataflow360_final_paper_1764534128793.png)
 
